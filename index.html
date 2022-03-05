@@ -82,6 +82,11 @@
                   </li>
                 </ul>
               </nav>
+              <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             </div>
             <div class="h1-title">
               <h1>блог о творчестве, спорте,<br> и образе жизни </h1>
@@ -151,7 +156,7 @@
           <main class="main">
             <article class="block-1">
               <div class="main-image">
-                <img src="/img/last-post1.jpg" alt="Мужчина на пляже">
+                <img src="img/last-post1.jpg" alt="Мужчина на пляже">
               </div>
               <div class="main-text">
                 <ul class="main-link">
@@ -178,7 +183,7 @@
       
             <article class="block-1">
               <div class="main-image">
-                <img src="/img/last-post2.jpg" alt="Девушка на пляже">
+                <img src="img/last-post2.jpg" alt="Девушка на пляже">
               </div>
               <div class="main-text">
                 <ul class="main-link">
@@ -205,7 +210,7 @@
       
             <article class="block-1">
               <div class="main-image">
-                <img src="/img/last-post3.jpg" alt="Девушка на концерте">
+                <img src="img/last-post3.jpg" alt="Девушка на концерте">
               </div>
               <div class="main-text">
                 <ul class="main-link">
@@ -230,7 +235,7 @@
       
             <article class="block-1">
               <div class="main-image">
-                <img src="/img/last-post4.jpg" alt="Стол с едой">
+                <img src="img/last-post4.jpg" alt="Стол с едой">
               </div>
               <div class="main-text">
                 <ul class="main-link">
@@ -257,7 +262,7 @@
       
             <article class="block-1">
               <div class="main-image">
-                <img src="/img/last-post5.jpg" alt="Подушка с надписью">
+                <img src="img/last-post5.jpg" alt="Подушка с надписью">
               </div>
               <div class="main-text">
                 <ul class="main-link">
@@ -296,7 +301,7 @@
       
               <article class="section-item">
                 <div class="sec-img">
-                  <img src="/img/2.jpg" alt="Мужчина на пляже">
+                  <img src="img/2.jpg" alt="Мужчина на пляже">
                 </div>
       
                 <div class="section-title">
@@ -309,7 +314,7 @@
       
               <article class="section-item">
                 <div class="sec-img">
-                  <img src="/img/151.jpg" alt="Девушка на пляже">
+                  <img src="img/151.jpg" alt="Девушка на пляже">
                 </div>
       
                 <div class="section-title">
@@ -322,7 +327,7 @@
       
               <article class="section-item">
                 <div class="sec-img">
-                  <img src="/img/45.jpg" alt="Уютная комната">
+                  <img src="img/45.jpg" alt="Уютная комната">
                 </div>
       
                 <div class="section-title">
@@ -335,7 +340,7 @@
       
               <article class="section-item">
                 <div class="sec-img">
-                  <img src="/img/501.jpg" alt="Накрытый стол">
+                  <img src="img/501.jpg" alt="Накрытый стол">
                 </div>
       
                 <div class="section-title">
@@ -348,7 +353,7 @@
       
               <article class="section-item">
                 <div class="sec-img">
-                  <img src="/img/7.jpg" alt="Девушки с длинными волосами">
+                  <img src="img/7.jpg" alt="Девушки с длинными волосами">
                 </div>
       
                 <div class="section-title">
@@ -431,100 +436,161 @@
 <!--
   PRODUCTS
 -->
-<section class="content">
-	<h2 class="trend-title">Наши изделия</h2>
-	<div class="products">
-    <article class="product">
-      <div class="product-image">
-        <picture>
-          <source media="(max-width: 1200px)"
-            srcset="img/shop-item-tablet1.jpg" alt="Подушка"
-          >
-          <source media="(max-width: 641px)"
-            srcset="img/shop-item-mobile1.jpg" alt="Подушка"
-          >  
-          <img class="product-img" src="img/shop-item-desk1.jpg" alt="Подушка">
-        </picture>
-      </div>
-      <div class="product-body">
-        
-          <h3 class="product-title">Подушка на диван</h3>
-          <div class="product-subtitle">
-          	<p>Набор из двух подушек с модными принтами. Видео о создании <a class="product-link" href="#0">здесь</a></p>
-          </div>
-        
-        <footer class="product-footer">
-          <div class="prices">
-          	<div class="price">1000 ₽</div>
-            <div class="price-discount">800 ₽</div>
-          </div>
-          <div class="product-button">
-          	<a href="#" class="product-button-link">В магазин</a>
-          </div>
-        </footer>
-      </div>
-    </article>
+        <section class="products">
+          <h2 class="trend-title">
+            наши изделия
+          </h2>
+          <div class="product-content">
+            <div class="product-block">
+              <div class="block-wrp">
+                <div class="product-image">
+                  <picture>
+                    <source
+                        media="(min-width: 1201px)"
+                        srcset="img/shop-item-desk1.jpg"
+                    />
+                    <source
+                        media="(min-width: 641px) and (max-width: 1200px)"
+                        srcset="img/shop-item-tablet1.jpg"
+                    />
+                    <source
+                        media="(max-width: 640px)"
+                        srcset="img/shop-item-mobile1.jpg"
+                    />
+                    <img
+                        src="img/shop-item-desk1.jpg"
+                        alt="Подушки на диван"
+                    />
+                </picture>
+                </div>
+                <div class="product-content-text">
+                  <div class="content-top">
+                    <h3 class="product-title">
+                      Подушки на диван
+                    </h3>
+                    <div class="product-text">
+                      Набор из двух подушек с модными принтами. Видео о создании <a class="product-link" href="#0"> здесь</a>.
+                    </div>
+                  </div>
+                  <div class="product-bottom">
+                    <div class="price">
+                      <span class="discount-price">
+                        1000p
+                      </span>
+                      <span class="regular-price">
+                        800p
+                      </span>
+                    </div>
+                    <div class="button">
+                      <button class="button-email">
+                        В магазин
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  <article class="product">
-      <div class="product-image">
-        <picture>
-          <source media="(max-width: 1200px)"
-            srcset="img/shop-item-tablet2.jpg" alt="Зайка"
-          >
-          <source media="(max-width: 641px)"
-            srcset="img/shop-item-mobile2.jpg" alt="Зайка"
-          >  
-          <img class="product-img" src="img/shop-item-desk2.jpg" alt="Зайка">
-        </picture>
-      </div>
-      <div class="product-body">
-        
-          <h3 class="product-title">Кукла "Зайчик"</h3>
-          <div class="product-subtitle">
-          	<p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+            <div class="product-block">
+              <div class="block-wrp">
+                <div class="product-image">
+                  <picture>
+                    <source
+                        media="(min-width: 1201px)"
+                        srcset="img/shop-item-desk2.jpg"
+                    />
+                    <source
+                        media="(min-width: 641px) and (max-width: 1200px)"
+                        srcset="img/shop-item-tablet2.jpg"
+                    />
+                    <source
+                        media="(max-width: 640px)"
+                        srcset="img/shop-item-mobile2.jpg"
+                    />
+                    <img
+                        src="img/shop-item-desk2.jpg"
+                        alt="Подушки на диван"
+                    />
+                </picture>
+                </div>
+                <div class="product-content-text">
+                  <div class="content-top">
+                    <h3 class="product-title">
+                      Кукла "Зайчик"
+                    </h3>
+                    <div class="product-text">
+                      Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product-link" href="#">весенняя серия постов</a>  в блоге и несколько подкастов.
+                    </div>
+                  </div>
+                  <div class="product-bottom">
+                    <div class="price">
+                      <span class="regular-price">
+                        3500p
+                      </span>
+                    </div>
+                    <div class="button">
+                      <button class="button-email">
+                        В магазин
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-block">
+              <div class="block-wrp">
+                <div class="product-image">
+                  <picture>
+                    <source
+                        media="(min-width: 1201px)"
+                        srcset="img/shop-item-desk3.jpg"
+                    />
+                    <source
+                        media="(min-width: 641px) and (max-width: 1200px)"
+                        srcset="img/shop-item-tablet3.jpg"
+                    />
+                    <source
+                        media="(max-width: 640px)"
+                        srcset="img/shop-item-mobile3.jpg"
+                    />
+                    <img
+                        src="img/shop-item-desk3.jpg"
+                        alt="Подушки на диван"
+                    />
+                </picture>
+                </div>
+                <div class="product-content-text">
+                  <div class="content-top">
+                    <h3 class="product-title">
+                      Шестиугольная рамка
+                    </h3>
+                    <div class="product-text">
+                      Необычная рамка для украшения дома из видео <a class="product-link" href="#">«Как сделать рамку из подручных средств за 30 минут»</a> 
+                    </div>
+                  </div>
+                  <div class="product-bottom">
+
+                    <div class="price">
+                      <span class="discount-price">
+                        500p
+                      </span>
+                      <span class="regular-price">
+                        400p
+                      </span>
+                    </div>
+
+                    <div class="button">
+                      <button class="button-email">
+                        В магазин
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        
-        <footer class="product-footer">
-          <div class="product-prices">
-            <div class="price-discount">3500 ₽</div>
-          </div>
-          <div class="product-button">
-          	<a href="#" class="product-button-link">В магазин</a>
-          </div>
-        </footer>
-      </div>
-  </article>
-  <article class="product">
-      <div class="product-image">
-        <source media="(max-width: 1200px)"
-            srcset="img/shop-item-tablet3.jpg" alt="Рамка"
-        >
-        <source media="(max-width: 641px)"
-            srcset="img/shop-item-mobile3.jpg" alt="Рамка"
-        >  
-          <img class="product-img" src="img/shop-item-desk3.jpg" alt="Рамка">
-        </picture>
-      </div>
-      <div class="product-body">
-        
-          <h3 class="product-title">Шестиугольная рамка</h3>
-          <div class="product-subtitle">
-          	<p>Необычная рамка для украшения дома из видео <a class="product-link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
-          </div>
-        
-        <footer class="product-footer">
-          <div class="product-prices">
-            <div class="price">500 ₽</div>
-            <div class="price-discount">400 ₽</div>
-          </div>
-          <div class="product-button">
-          	<a href="#" class="product-button-link">В магазин</a>
-          </div>
-        </footer>
-      </div>
-    </article>
- </div>
-</section>
+        </section>
         <!--FOOTER-->
         <footer class="footer">
           <address class="adress-icon">
