@@ -224,22 +224,22 @@
   z-index: 2;
 }
 .trend-1{
-  background: url('/img/trend1.jpg') no-repeat;
+  background: url('img/trend1.jpg') no-repeat;
   background-color: #ccc;
   background-size: cover;
 }
 .trend-2{
-  background: url('/img/trend2.jpg') no-repeat;
+  background: url('img/trend2.jpg') no-repeat;
   background-color: #ccc;
   background-size: cover;
 }
 .trend-3{
-  background: url('/img/trend3.jpg') no-repeat;
+  background: url('img/trend3.jpg') no-repeat;
   background-color: #ccc;
   background-size: cover;
 }
 .trend-4{
-  background: url('/img/trend4.jpg') no-repeat;
+  background: url('img/trend4.jpg') no-repeat;
   background-color: #ccc;
   background-size: cover;
 }
