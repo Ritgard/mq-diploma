@@ -78,7 +78,7 @@
     height: 20px;
     top: 55%;
     left: 93%;
-    background-image: url("/svg/form-arrows.svg");
+    background-image: url("../svg/form-arrows.svg");
     background-size: cover;
     }
   .field-input{
@@ -105,7 +105,7 @@
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-    background-image: url('/svg/form-empty-circle.svg');
+    background-image: url('../svg/form-empty-circle.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -118,7 +118,7 @@
     margin-left: 10px;
   }
   .radio:checked ~ .radio-group-text::before{
-    background-image: url('/svg/form-circle.svg');
+    background-image: url('../svg/form-circle.svg');
   }
   .radio{
     position: absolute;
