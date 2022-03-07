@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff")
+    src: url("../fonts/OpenSans-Regular.woff")
       format("truetype");
     font-style: normal;
     font-weight: normal;
   }
   @font-face {
     font-family: "Open Sans";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff")
+    src: url("../fonts/OpenSans-Bold.woff")
       format("truetype");
     font-style: normal;
     font-weight: bold;
@@ -126,7 +126,7 @@
     height: 1px;
     width: 1px;
   }
-  .popup{
+  ._hidden{
     display: none;
   }
   /*HEADER*/
