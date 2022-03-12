@@ -233,6 +233,9 @@
   .trend-block:last-child{
     margin: 0;
   }
+  .trend-block:nth-child(n+3){
+    margin-bottom: 0;
+  }
   .trend-1{
     background: url('../img/trend1.jpg') no-repeat;
     background-color: #ccc;
@@ -286,7 +289,7 @@
   }
   .block-1 {
     display: flex;
-    margin: 0 0 55px 0;
+    margin: 0 0 60px 0;
     align-items: flex-start;
   }
   .block-1:last-child {
@@ -348,9 +351,10 @@
   .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 65px;
     display: flex;
     justify-content: space-between;
-    padding: 58px 15px 59px 15px;
+    padding: 58px 15px 0 15px;
   }
   /*SECTION*/
   .aside {
@@ -400,6 +404,9 @@
     display: flex;
     align-items: flex-start;
     margin: 22px 0 20px 0;
+  }
+  .section-item:last-child{
+    margin-bottom: 0;
   }
 
   /*SEARCH*/
@@ -492,6 +499,7 @@
   .list-item {
     color: #000;
     font-weight: bold;
+    font-size: 14px;
   }
   .tems-list li::before {
     content: "";
@@ -513,7 +521,6 @@
   }
   /*PRODUCT*/
   .products{
-    margin-top: 65px;
     margin-bottom: 65px;
   }
   .product-section{
@@ -586,6 +593,7 @@
     font-size: 14px;
     color: #fff;
     background-color: #b59f5b;
+    text-transform: uppercase;
   }
   /*FOOTER*/
   .footer-content{
@@ -647,6 +655,7 @@
   }
   /*TABLET*/
   @media (max-width: 1200px){
+    /*POPUP*/
     /*HEADER*/
     .header{
       position: relative;
@@ -715,7 +724,8 @@
     }
     /*MAIN*/
     .wrapper{
-      padding: 45px 20px 45px 20px;
+      padding: 45px 20px 0 20px;
+      margin-bottom: 40px;
     }
     .main{
       width: 100%;
@@ -759,7 +769,7 @@
     /*ASIDE*/
     .aside{
       min-width: 273px;
-      margin-left: 30px;
+      margin-left: 35px;
     }
     .section-item{
       margin-top: 10px;
